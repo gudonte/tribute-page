@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+#main {
+  background-color: #eeeeee;
+  margin: 20px 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+#title {
+  font-size: 2.5em;
+}
+#img-div {
+  background: #ffffff;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+#img-div img {
+  border-radius: 5px;
+  width: 700px;
+  height: 529px;
+}
+#img-cap {
+  margin: 20px 0;
+}
+#tribute-info {
+  font-weight: bold;
+  margin: 20px 0;
+}
+#tribute-content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#quote {
+  padding: 50px 0;
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  font-style: italic;
+}
+.quote-name {
+  display: block;
+  padding: 20px 0;
+}
+
+#link {
+  font-weight: bold;
+  font-size: 20px;
+}
+#link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 700px) {
+  #img-div img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+  }
+}
